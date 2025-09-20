@@ -2,6 +2,10 @@
 
 AWCC is an unofficial alternative to Alienware Command Centre of Windows for the Dell G series on Linux, supporting almost all features that the Windows version supports, including custom fan controls, light effects, g-mode, and autoboost
 
+Discord Community : 
+
+[![Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/EMWUTgegDm)](https://discord.gg/EMWUTgegDm)
+
 # Building And Installation
 
 For Arch-Based Distros
@@ -120,7 +124,7 @@ Options:
 
 Should work in all Dell G15 models and some G16 models too
 
-Feel free to test and give feedback in [discussions](https://github.com/tr1xem/AWCC/discussions)
+Feel free to test and give feedback in [discussions](https://github.com/tr1xem/AWCC/discussions) 
 
 # FAQ and TIPS
 
