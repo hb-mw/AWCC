@@ -136,19 +136,8 @@ Ans: Yes, you can just run `sudo awcc device-info` and open a discussion with th
 
 # Roadmap
 
-### Rewrite in progress
+## Rewrite in progress on [Rewrite Branch](https://github.com/tr1xem/AWCC/tree/rewrite) Check their for roadmap for discussion/feedback either join discord community or [Gh Disscussion](https://github.com/tr1xem/AWCC/discussions/23)
 
-- [ ] Rewrite Core of AWCC in C++ with minmal api changes
-- [ ] Gui - Using `Dear ImGui` and some visuals from windows version
-- [ ] Auto Zone identify using `libusb` and `Alien FX Sdk`
-- [ ] Fan Curve for AutoBoost
-- [ ] Improved DMI and Normal Device Detection
-- [ ] Better Acip Executions with fallback and functions like `executeacip(0x2, 0x0, 0x0, 0x0)`
-- [ ] Support for Legacy `USTT` modes
-- [ ] JSON Config file and parsing
-- [ ] Grab Unmark keys directly from daemon using `evdev`
-- [ ] Other Zones like head and support for `Alienware` - Low Priority
-- [ ] Verbose and Debug Mode
 
 # Credits
 
