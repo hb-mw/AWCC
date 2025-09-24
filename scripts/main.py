@@ -138,6 +138,7 @@ class G15KeyHandler:
         try:
             devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
             for dev in devices:
+                print(dev.name)
                 if dev.name == self.device_name:
                     logging.info(f"Found device: {dev.path} ({dev.name})")
                     return dev
@@ -145,6 +146,9 @@ class G15KeyHandler:
             logging.error(f"Device '{self.device_name}' not found")
             available = [dev.name for dev in devices]
             logging.info(f"Available devices: {', '.join(available)}")
+            logging.info(
+                "Most Certainly your are not in input group please run:  sudo usermod -aG input $USER"
+            )
             return None
 
         except Exception as e:
